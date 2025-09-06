@@ -43,7 +43,7 @@ This ensured the prototype focused on **simplicity, safety, and family-friendly 
 ---
 
 ## 🚀 Live Demo
-👉 [View Prototype on GitHub Pages](https://stackmindlab.github.io/D479-Task1-taniti-tourism-prototype/)  
+👉 [Visit the Prototype](https://stackmindlab.github.io/taniti-tourism-prototype/)
 
 ---
 
@@ -57,4 +57,8 @@ This ensured the prototype focused on **simplicity, safety, and family-friendly 
 
 ## 📚 Course Reference
 WGU – **D479: User Experience Design**
+
+
+## 📸 Project Preview
+![Taniti Tourism Prototype Screenshot](images/homepage-screenshot.png)
 
