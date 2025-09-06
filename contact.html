@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Visit Taniti</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* small scoped form styles */
+    .contact-wrap {
+      max-width: 900px;
+      margin: 30px auto 60px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 24px;
+    }
+    .contact-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.08);
+      padding: 18px;
+    }
+    .contact-card h3 { margin-top: 0; }
+    .contact-card label { display: block; margin: 10px 0 6px; font-weight: 700; }
+    .contact-card input, .contact-card textarea {
+      width: 100%; padding: 10px 12px;
+      border: 1px solid #ddd; border-radius: 8px;
+      font: inherit;
+    }
+    .contact-card button {
+      margin-top: 10px; padding: 10px 16px;
+      background: #ff7f50; color: #fff;
+      border: none; border-radius: 8px;
+      font-weight: 700; cursor: pointer;
+    }
+    .contact-info p { margin: 6px 0; }
+    @media(max-width:800px) { .contact-wrap { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">
+  <a href="index.html">
+    <img src="images/logo.png" alt="Visit Taniti Logo">
+  </a>
+</div>
+
+
+  <!-- ✅ Hamburger button -->
+  <button class="hamburger">☰</button>
+
+  <nav id="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="food.html">Food</a></li>
+      <li><a href="amenities.html">Amenities</a></li>
+      <li><a href="transportation.html">Transportation</a></li>
+      <li><a href="lodging.html">Lodging & Hotels</a></li>
+      <li><a href="entertainment.html">Entertainment</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Contact Taniti Tourism</h2>
+  <p>For questions or trip planning assistance, please get in touch with the Taniti Tourism Office.</p>
+  
+  <div class="contact-wrap">
+    <div class="contact-card">
+      <h3>Start Planning</h3>
+      <form id="contactForm">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com">
+
+        <label for="message">Trip Details</label>
+        <textarea id="message" rows="5" placeholder="Tell us dates, travelers, preferences…"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="contact-card contact-info">
+      <h3>Contact Info</h3>
+      <p><strong>Email:</strong> hello@visittaniti.example</p>
+      <p><strong>Phone:</strong> (555) 010-2025</p>
+      <p><strong>Hours:</strong> Mon–Sat, 9:00–17:00 (local)</p>
+      <img src="images/contact.jpg" alt="Tourism office" style="width:100%;margin-top:10px;border-radius:8px;">
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <button id="start-planning" onclick="location.href='contact.html'">Start Planning</button>
+  <p>© 2025 Visit Taniti. Content adapted from About the Island (WGU, D479).</p>
+  <p>Images sourced from Unsplash (educational use).</p>
+</footer>
+
+
+<!-- ✅ Script -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
